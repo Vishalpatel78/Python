@@ -1,1 +1,2 @@
-l = [1,55]
+empt = {}
+# print(empt)
