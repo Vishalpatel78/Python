@@ -1,5 +1,8 @@
-for i in range (1, 11):
-      for j in range (1,11):
-          print(i*j,"\t",end=" ")
-      print()        
-  
+class test:
+    i = 10
+    def f1(self):
+        print(self.i**2)
+
+t1=test()
+print(t1.i)
+print(t1.f1())

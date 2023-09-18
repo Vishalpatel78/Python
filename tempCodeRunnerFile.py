@@ -1,2 +1,1 @@
-empt = {}
-# print(empt)
+print("After inserting array is:",ar)

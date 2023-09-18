@@ -1,13 +1,15 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Aug 16 10:25:45 2023
+import array as a
 
-@author: vishal kurmi
-"""
+ar1 = a.array('i',[10,20,30,40,50])
+ar2 = a.array('i',[15,20,25,40,55])
 
-if "vihsal" == " vishal":
-    print(rstrip"string is same")
-else:
-    print("string is not same")
+for i in range(0,5):
+    if (ar1[i] == ar2[i]):
+        print("index value is same",ar1[i])
     
-    
+    elif(ar1[i]>ar2[i]):
+        print("array1 index is greater")
+
+    else:
+        print("index value is not same")
+
